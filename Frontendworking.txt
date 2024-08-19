@@ -519,3 +519,14 @@ const store = Redux.createStore(messageReducer);
     }
     // Above is the code required to pass the test
   };
+
+#react and redux - map state to props
+
+const state = [];
+
+// change code below this line
+const mapStateToProps = (state)=>{
+  return {
+    messages: state
+  }
+}
