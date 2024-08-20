@@ -792,3 +792,5 @@ class AppWrapper extends React.Component {
   }
 };
 
+#final step
+console.log("I have completed redux and React!");
